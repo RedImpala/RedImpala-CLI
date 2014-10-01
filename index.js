@@ -1,0 +1,2 @@
+require('gnode');
+require('./app');

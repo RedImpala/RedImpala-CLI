@@ -1,0 +1,27 @@
+{
+  "name": "RedImpala-CLI",
+  "version": "1.0.0",
+  "description": "A CLI client for RedImpala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedImpala/RedImpala-CLI.git"
+  },
+  "author": "roblabla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedImpala/RedImpala-CLI/issues"
+  },
+  "homepage": "https://github.com/RedImpala/RedImpala-CLI",
+  "dependencies": {
+    "RedImpalaLib": "git+https://github.com/RedImpala/RedImpalaLib-JS.git",
+    "co": "^3.1.0",
+    "co-fs": "^1.2.0",
+    "co-prompt": "^1.0.0",
+    "gnode": "^0.1.0",
+    "thunkify": "^2.1.2"
+  }
+}
